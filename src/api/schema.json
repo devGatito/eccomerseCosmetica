@@ -1,0 +1,60 @@
+{
+    "schema":{
+        "navbar":{
+
+            "text": ["Home", "About", "Contact"],
+            "logo": "/assets/icons/alcantaEEUU.svg"
+            
+
+            
+
+        },
+        "hero":{
+            "text": ["Unleash the beauty of your hair","Explore our luxurious hair care collection that nourishes, strengthens, and revitalizes.","DISCOVER US"],
+            "img": "/assets/image/background.png"
+
+        },
+        "about_us":{
+            "text": ["Always with you","Excellence, Passion, and Trust","We are committed to delivering outstanding hair care solutions that enhance your natural beauty and confidence. Our innovative products are crafted to meet the highest standards, ensuring your hair receives the care it deserves."],
+            "title": ["Nourishing treatments","Essential care","Revitalizing solutions","Styling essentials"],
+            "subtitle": ["Hydrate and strengthen your hair completely.","Daily essentials for flawless, beautiful hair.","Restore health and shine to your hair.","Perfect any hairstyle with our versatile products."],
+            "video": "/assets/videos/Colecc.mp4" 
+
+        },
+        "HairCareProducts":{
+            "title": "Transform Your Hair",
+            "subtitle":"Our Essential Products",
+            "btn": "Shop Now"
+
+        },
+        "testimonials":{
+            "title":"testimonials",
+            "subtitle": "Suggestions & feedback",
+            "img":[],
+            "users_name": ["Ava Thomson", "Ella Smith", "Liam Johnson"],
+            "users_lastname":["Biochemist", "Hair Stylist", "Beauty Blogger"],
+
+            "comments": ["I love the products! They are amazing and have transformed my hair.","I have been using these products for a while now and I am very happy with the results.","I have tried many hair care products but none have worked as well as these. I highly recommend them."]
+
+        },
+        "Blog":{
+            "title":"Blog",
+            "subtitle":["Our Blog","Trends","Tips"],
+            "users":"/assets/image/images.jpeg",
+            "btn": "Visit Blog"
+        },
+        "banner":{
+            "title":"Stay updated with our high-quality training sessions.",
+            "btn": "Upcoming training sessions",
+            "img": "/assets/image/texture.webp"
+        },
+        "contact_us":{
+            "title":"Contact Us",
+            "subtitle":"We are here to help you",
+            "btn": "Contact Us",
+            "address": "1234 Elm Street, New York, NY 10001",
+            "phone": "123-456-7890",
+            "frame":"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d17189.997773394225!2d-71.16681800000002!3d42.275782!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e37f3fdf39806d%3A0x61c83058699a6660!2s162%20Spring%20St%2C%20Boston%2C%20MA%2002132!5e1!3m2!1ses-419!2sus!4v1741067081948!5m2!1ses-419!2sus"
+        }
+    }
+}

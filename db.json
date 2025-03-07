@@ -1,0 +1,70 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Keraliss Technique Keratin Essential Thermic Hair Protection",
+            "price": 24.55,
+            "stock": 20,
+            "description": "Keratin thermal protector that effectively protects hair from the heat produced by the straightener and dryer. Together with the shampoo and balm from the Keraliss Technique line, it extends the duration of straightening treatments and allows you to achieve progressive straightening.",
+            "category": "Hair Protection",
+            "image": "/assets/products/aclarafit.webp",
+            "benefits": [
+                "Extends the duration of straightening treatments and allows for progressive straightening",
+                "With keratin to reinforce and protect the hair fiber",
+                "Controls volume and frizz",
+                "Silky, disciplined and shiny hair",
+                "Combine it with Keratin Essential Shampoo and Keratin Essential Balm",
+                "Does not make hair greasy"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Argan Oil Hair Serum",
+            "price": 18.99,
+            "stock": 50,
+            "description": "A lightweight serum infused with argan oil to nourish and protect hair, leaving it smooth and shiny.",
+            "category": "Hair Serum",
+            "image": "/assets/products/BIFASE-Acondicionador-bifasico-600x600.webp",
+            "benefits": [
+                "Nourishes and protects hair",
+                "Reduces frizz and adds shine",
+                "Lightweight formula",
+                "Suitable for all hair types",
+                "Non-greasy"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Coconut Milk Shampoo",
+            "price": 12.75,
+            "stock": 30,
+            "description": "A hydrating shampoo enriched with coconut milk to gently cleanse and moisturize hair, leaving it soft and manageable.",
+            "category": "Shampoo",
+            "image": "/assets/products/Keraliss-Technique-Keratin-Essential-Termic-Hair-Protection-150x150.webp",
+
+            "benefits": [
+                "Hydrates and moisturizes hair",
+                "Gently cleanses",
+                "Leaves hair soft and manageable",
+                "Suitable for daily use",
+                "Pleasant coconut fragrance"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Biotin Hair Growth Conditioner",
+            "price": 15.50,
+            "stock": 40,
+            "description": "A conditioner formulated with biotin to promote hair growth and strengthen hair, reducing breakage and split ends.",
+            "category": "Conditioner",
+            "image": "/assets/products/Traybell-Essentia-Vitalis-tonico-tratamiento-caida-120x120.webp",
+            "benefits": [
+                "Promotes hair growth",
+                "Strengthens hair",
+                "Reduces breakage and split ends",
+                "Suitable for all hair types",
+                "Paraben-free"
+            ]
+        }
+    ]
+}

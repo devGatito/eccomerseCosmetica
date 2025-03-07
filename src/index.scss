@@ -1,0 +1,141 @@
+$kinetika-font-name: 'Kinetika-Bold';
+$second-font-name: 'kis-second';
+$three-font-name: 'three';
+
+$kinetika-font-path: '/fonts/kinetika-bold.ttf';
+$second-font-path: '/fonts/Madera W01 UltraLight.ttf';
+$three-font-path: '/fonts/zhandelson-three.otf';
+
+@font-face {
+  font-family: #{$kinetika-font-name};
+  src: url(#{$kinetika-font-path}) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: #{$second-font-name};
+  src: url(#{$second-font-path}) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: #{$three-font-name};
+  src: url(#{$three-font-path}) format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section > div {
+  max-width: 80%;
+}
+
+img {
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font-family: #{$kinetika-font-name}, sans-serif;
+}
+
+h1 {
+  font-family: #{$kinetika-font-name}, sans-serif;
+}
+
+h2 {
+  font-family: #{$three-font-name}, sans-serif;
+}
+
+p {
+  font-family: #{$kinetika-font-name}, sans-serif;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center; 
+  justify-content: flex-start;
+  padding: 0 10%;
+
+  &__main {
+    width: 100%;
+    height: 100vh; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  &__content {
+    position: relative;
+    z-index: 9;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    text-align: left; 
+    max-width: 500px;
+    margin: 0;
+    color: white;
+
+    h1, p, a {
+      text-align: left !important; 
+      width: 100%; 
+    }
+
+    h1 {
+      font-family: #{$kinetika-font-name}, sans-serif;
+    }
+  }
+}
+
+.mz{
+  width: 20%;
+  margin-top: 20px;
+  border: none; 
+  border-top: 2px solid #d4b2a7; 
+}
+.mb{
+  width: 20%;
+  margin-top: 20px;
+  border: none; 
+  border-top: 2px solid #000000; 
+}
+.ma{
+  width: 20%;
+  margin-top: 20px;
+  border: none; 
+  border-top: 2px solid #d4b2a7; 
+}
+.mr{
+  width: 20%;
+  margin-top: 20px;
+  border: none; 
+  border-top: 2px solid #d4b2a7; 
+}
+
+.mw{
+  min-width: 100%;
+  border: none; 
+  border-top: 2px solid #ffffff; 
+}
+
+button{
+  cursor: pointer;
+}

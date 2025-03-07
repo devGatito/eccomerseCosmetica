@@ -1,0 +1,20 @@
+.video {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+
+    &__iframe {
+        width: 100% !important;
+        height: 100% !important;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+iframe {
+    display: block;
+    width: 100% !important;
+    height: 100% !important;
+    border: none;
+}

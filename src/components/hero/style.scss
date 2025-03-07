@@ -1,0 +1,67 @@
+@import './src/index.scss';
+.hero {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start;
+    padding: 0 10%;
+
+    &__main {
+        width: 100%;
+        height: 100vh; 
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    &__content {
+        position: relative;
+        z-index: 9;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; 
+        text-align: left; 
+        max-width: 500px;
+        margin: 0;
+        color: white;
+        
+      
+
+        h1, p, a {
+            text-align: left !important; 
+            width: 100%; 
+            padding-top: 20px;
+            
+            font-family: #{$kinetika-font-name}, sans-serif;
+            
+              
+        }
+        h1{
+            font-family: #{$kinetika-font-name}, sans-serif;
+            font-size: 64px;
+
+            @media (max-width: 768px) {
+                font-size: 36px;
+                text-align: center;
+                
+            }
+
+        }
+        p{
+            font-weight: 100;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 20px;
+        }
+    }
+}
+button{
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    border: none;
+    background-color: #d4b2a7;
+}
